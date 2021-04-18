@@ -8,5 +8,5 @@
 
 def key_for_min_value(name)
   return nil if name.empty?
-  name.collect do {|k,v| if v < v puts #{k}}
+  name.collect {|k,v| if v < v puts #{k}}
 end 
