@@ -11,5 +11,6 @@ def key_for_min_value(name)
   name.collect do |k,v| 
     if v < v
       outs #{k}
+    end 
     end
 end 
